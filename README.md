@@ -20,9 +20,13 @@ A lightweight Colab pipeline for frame‐level anomaly detection on UMN Crowd vi
 ## 📁 Structure
 
 ├── data/ # source AVI clips
+
 ├── frames/ # extracted .jpg frames
+
 ├── captions/ # per‐frame .txt captions
+
 ├── scores/ # CSVs of (frame,score) per model
+
 └── plots/ # generated .png summaries
 
 Feel free to adjust sampling rate, prompts or models in the notebook!
